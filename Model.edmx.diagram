@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6e25cc8ca2a54c5a8be83574020bd5b3" Name="Diagram1">
+        <EntityTypeShape EntityType="ShoeShopDBModel.Category" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeShopDBModel.Manufacturer" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeShopDBModel.Order" Width="1.5" PointX="3" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeShopDBModel.OrderStatus" Width="1.5" PointX="0.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeShopDBModel.PickUpPoint" Width="1.5" PointX="0.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeShopDBModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeShopDBModel.ProductInOrder" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeShopDBModel.Role" Width="1.5" PointX="1.5" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeShopDBModel.Supplier" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeShopDBModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeShopDBModel.Unit" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeShopDBModel.Users" Width="1.5" PointX="0.75" PointY="18.375" IsExpanded="true" />
+        <AssociationConnector Association="ShoeShopDBModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeShopDBModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeShopDBModel.FK_Order_OrderStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeShopDBModel.FK_Order_PickUpPoint" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeShopDBModel.FK_Order_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeShopDBModel.FK_ProductInOrder_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeShopDBModel.FK_Product_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeShopDBModel.FK_Product_Unit" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeShopDBModel.FK_ProductInOrder_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeShopDBModel.FK_Users_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

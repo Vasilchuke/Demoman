@@ -1,0 +1,25 @@
+﻿<Window x:Class="DemoExz22.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoExz22"
+        mc:Ignorable="d"
+        Style="{StaticResource Windows}"
+        Title="Authorization" Height="450" Width="800">
+    <Grid>
+
+        <Border VerticalAlignment="Center" HorizontalAlignment="Center">
+            <StackPanel Margin="30">
+                
+                <TextBlock Text="Login" Margin="40, 10" />
+                <TextBox Name="LoginTextBox" Margin="20,10" />
+                <PasswordBox Name="PasswordBox" Margin="20, 10" />
+                <Button x:Name="LoginButton" Content="Login" Margin="20, 10" Click="LoginButton_Click"/>
+                <TextBlock Text="Don't have an account?" Margin="20, 10" FontSize="15" Foreground="Blue" MouseDown="TextBlock_MouseDown"/>
+
+            </StackPanel>
+        </Border>
+        
+    </Grid>
+</Window>
